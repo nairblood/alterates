@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Mengatur Gambar Pada CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <style>
+        body#login{
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            position: fixed;
+        }
+        .flex-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .flex-box .left-block, .right-block{
+            flex: 0 1 auto;
+            width: calc(50% - 15px);
+        }
+        .right-block img{
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body id="login">
+
+     
+
+    <div class="flex-box">
+        <div class="left-block">
+            <div class="container">
+                <h1>Sign up form </h1>
+                <h2>Create a free account and get started </h2>
+                <div class="item1"><input class="search" type="text" placeholder="Email Addrees" required></div>
+                <div class="item2"><input class="search" type="text" placeholder="Password " required></div>
+                <div class="item3"><input class="search" type="text" placeholder="Reytype Password" required></div>
+                <br/>
+                <input type="reset" value="SIGN UP NOW">
+            </div>
+        </div>
+        <div class="right-block">
+            <img src="gambar2.png" alt="">
+        </div>
+    </div>
+      
+     
+    </body>
+</html> 
