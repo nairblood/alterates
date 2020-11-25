@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>tes ALTERA</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <style>
+        /* pengaturan spasi padding body */
+        body#login{
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            /* position: fixed; */
+        }
+        /* pengaturan flexbox posisi */
+        .flex-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        /* pengaturan padding dan margin */
+        .flex-box .left-block, .right-block{
+            flex: 0 1 auto;
+            width: calc(50% - 15px);
+        }
+        /* ukuran image dan position  */
+        .right-block img{
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body id="login">
+
+     
+
+    <div class="flex-box">
+        <!-- flex box di bagian kiri  -->
+        <div class="left-block">
+            <div class="container">
+                <!-- container berisikan text login dll -->
+                <h1>Sign up form </h1>
+                <h2>Create a free account and get started </h2>
+            <!-- membuat  create box  email  -->
+                <div class="item1"><input class="search" type="text" placeholder="Email Addrees" required></div>
+                <div class="item2"><input class="search" type="text" placeholder="Password " required></div>
+                <div class="item3"><input class="search" type="text" placeholder="Retype Password" required></div>
+                <br/>
+                <input type="reset" value="SIGN UP NOW">
+            </div>
+        </div>
+        <!-- flex box sebelah kanan berisikan gambar  -->
+        <div class="right-block">
+            <img src="gambar2.png" alt="">
+        </div>
+    </div>
+      
+     
+    </body>
+</html> 

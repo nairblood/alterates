@@ -1,0 +1,88 @@
+h1{
+/* mengatur ukuran  top,left,width dan height */
+top: 286px;
+left: 322px;
+width: 137px;
+height: 32px;
+/* mengatur ukuran font dan style font */
+text-align: left;
+font: normal normal normal 24px/32px Roboto;
+letter-spacing: 0px;
+color: #000000DE;
+opacity: 1;
+    
+}
+
+h2{
+/* mengatur ukuran  top,left,width dan height */  
+top: 324px;
+left: 322px;
+width: 270px;
+height: 21px;
+text-align: left;
+
+/* mengatur ukuran font dan style font */
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0.15px;
+color: #00000099;
+opacity: 1;
+}
+
+      .container {
+        /* pengaturan posisi  di dalam container login  */
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: -2rem;
+     }
+     .container > div {
+        /* sepasi pading */
+        padding: 15px 0;
+      }
+     
+      .search {
+          /* mengatur ukura input box top height dll, */
+        top: 385px;
+        left: 322px;
+        width: 300px;
+        height: 30px;
+        padding:8px 18px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        opacity: 0.5;
+            /* mengatur ukuran font dan style font          */
+        text-align: left;
+        font: normal normal normal 16px/21px Roboto;
+       letter-spacing: 0.15px;
+        color: #00000099;
+        opacity: 1;
+    } 
+
+
+/* css buton  */
+    a,button,input[type=submit],input[type=reset] {
+        /* mengatur posisi button dan font dan style font  */
+        text-align: center;
+        font: normal normal medium 14px/19px Roboto;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+       text-transform: uppercase;
+        opacity: 1;
+        /* mengatur ukuran box top,width, height */
+        padding: 12px 20px;
+        top: 643px;
+        left: 323px;
+        width: 340px;
+        height: 50px;
+        /* memberi warna box */
+        background: #6200EE 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+        opacity:0.9;
+    }
